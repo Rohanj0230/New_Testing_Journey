@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T11:45:41 IST" name="Default suite" finished-at="2026-03-11T11:45:41 IST" duration-ms="107">
+    <groups>
+    </groups>
+    <test started-at="2026-03-11T11:45:41 IST" name="Default test" finished-at="2026-03-11T11:45:41 IST" duration-ms="107">
+      <class name="propertyReader.Demo">
+        <test-method signature="setUp()[pri:0, instance:propertyReader.Demo@139982de]" started-at="2026-03-11T11:45:41 IST" name="setUp" finished-at="2026-03-11T11:45:41 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- propertyReader.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

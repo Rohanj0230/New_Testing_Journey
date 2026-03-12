@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PageObjectSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PageobjectTest(failed)">
+    <parameter name="username" value="Admin"/>
+    <parameter name="Password" value="admin123"/>
+    <classes>
+      <class name="PageObjectModel.LoginTest">
+        <methods>
+          <include name="LoginTestt1"/>
+          <include name="setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- PageObjectModel.LoginTest -->
+    </classes>
+  </test> <!-- PageobjectTest(failed) -->
+</suite> <!-- Failed suite [PageObjectSuite] -->
